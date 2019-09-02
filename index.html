@@ -1,205 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Copatible" content="IE=edge">
-    <meta name="viewport"  content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页 - 复旦大学赵世民实验室网站</title>
+    <meta name="keywords" content="复旦大学赵世民实验室网站" />
+    <meta name="description" content="复旦大学赵世民实验室网站" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="/Assets/css/index.css" rel="stylesheet" type="text/css" />
+    <link href="/Assets/css/ny.css" rel="stylesheet" />
+    <link href="/Assets/css/common.css" rel="stylesheet" />
+    <link href="/Assets/css/webpager.css" rel="stylesheet" />
+    <link href="/Assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
 
-	<title>Baoling's Portfolio</title>
+    
+    
+    <link href="/Assets/js/touchSliderJS/css/common.css" rel="stylesheet" />
+    <style type="text/css">
+        .men-left ul li
+        {
+            float: left;
+        }
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
+        .men-right ul li
+        {
+            float: right;
+        }
+    </style>
+
+
+
+    <script src="/Assets/js/jquery-1.11.0.min.js"></script>
 </head>
-<body class="home-body"> 
-	<!-- <div class="nav_banner" style="background-image: url(imgs/banner.png);"> -->
-		<nav class="navbar navbar-default navbar-transparent">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar" ></span>
-						<span class="icon-bar" ></span>
-						<span class="icon-bar" ></span>
-					</button>
-					<a class="navbar-brand" href="index.html"><div class="logo" style="background-image: url(imgs/logo.png); background-position: center; background-size: cover; border-radius: 50%;"></div>BAOLING</a>
-				</div>
-
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				    <ul class="nav navbar-nav navbar-right">
-				        <li class="active"><a href="index.html">PORTFOLIO</a></li>
-				        <li><a href="writings.html">WRITINGS</a></li>
-				        <!-- <li><a href="#">ABOUT</a></li> -->
-				    </ul>
-				</div>
-			</div>
-		</nav>
-	<!-- </div> -->
-
-	<div class="container-my">
-	<div class="self-intro">
-		<div class="title">Welcome to my website！</div> <div class="txt">Baoling Yang is a ux designer, a quick learner, and a girl with enormous passion.</div> 
-	</div>
-		<div class="tags-container flex flex--center">
-			<div class="tag active" id="tagAll" style="cursor: pointer;">All</div>
-			<div class="tag" id="tagUX" style="cursor: pointer;">UX Design</div>
-			<div class="tag" id="tagVisual" style="cursor: pointer;">Visual Design</div>
-			<div class="tag" id="tagVideo" style="cursor: pointer;">Animations</div>
-			<div class="tag" id="tag3d" style="cursor: pointer;">Coding</div>
-		</div>
-
-		<div class="pro-container clearfix">
-			
-			<a href="pro-season.html">
-				<div class="project-container UX" style="background-color:#ffad54; background-image: url(imgs/pro-season.png); background-size: cover; background-position: center;">
-					<div class="pro-intro-container">
-						<div class="pro-title">Seasonality</div> 
-						<div class="pro-txt">data website</div>
-					</div>
-				</div>
-			</a>
-
-			<a href="#">
-				<div class="project-container UX Visual frontend" style="background-color:#d0eefb; background-image: url(imgs/pro-journey.png); background-size: cover; background-position: center;">
-					<div class="pro-intro-container">
-						<div class="pro-title darker">eBay Journey 2016</div> 
-						<div class="pro-txt">A website showing users' behavior</div>
-					</div>
-				</div>
-			</a>
-	
-
-			<a href="#">
-				<div class="project-container frontend" style="background-color: #272822;background-image: url(imgs/pro-front.png); background-size: cover; background-position: center;">
-					<div class="pro-intro-container">
-						<div class="pro-title">Front End </div> 
-						<div class="pro-txt">HTML/CSS/JS coding</div>
-					</div>
-				</div>
-			</a>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="logo fl">
+                <a href="/">
+                    <img src="/Assets/images/logo.png" /></a>
+            </div>
+            <div class="topimg fr">
+                <img src="/Assets/images/topr.jpg" />
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!--top end-->
+        <div class="menubg">
+            <div class="menu fl">
+                <ul><li><a class='a1' href='/'>首&nbsp;&nbsp;页</a></li><li><a class='a2' data-id='9ebeac80-2555-4992-9324-a5c3011b886c' target='_self' href='/Data/List/sysgk'>团队介绍</a></li><li><a class='a3' data-id='32b00c6e-0b56-4bf8-bf33-a5c3011bbbda' target='_self' href='/Data/List/ds'>导师团队</a></li><li><a class='a4' data-id='ed268a0d-a6ae-480f-9a19-a5c3011bbc2e' target='_self' href='/Data/List/zdyjs'>人才培养</a></li><li><a class='a5' data-id='d1ec4640-cc8f-4506-8884-a609009e627a' target='_self' href='/Data/List/cgzss'>研究成果</a></li><li><a class='a6' data-id='ec24749d-1ea5-43cd-981d-a609009e6335' target='_self' href='/Data/List/cdkt'>承担课题</a></li><li><a class='a7' data-id='873a3043-8245-49c2-8ec3-a609009e62dd' target='_self' href='/Data/List/zszp'>招生招聘</a></li><li><a class='a8' data-id='2ef0014b-b173-44f0-8385-a60900a23ca4' target='_self' href='/Data/List/lxwm'>联系我们</a></li></ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="search fr">
+                <div class="inp-text fl">
+                    <input type="text" class="inp-text" name="" id="skey" value="" />
+                </div>
+                <div class="inp-but fr">
+                    <input type="button" class="inp-but" id="btnSearch" value="" />
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!--menubg end-->
+        
 
 
-			<a href="#">
-				<div class="project-container Visual Video" style="background-color: #22786e; background-image: url(imgs/pro-visual.png); background-size: cover; background-position: center;">
-					<div class="pro-intro-container">
-						<div class="pro-title">Sketches/Graphic/Animation</div> 
-						<div class="pro-txt">Visual designs</div>
-					</div>
-				</div>
-			</a>
-			<a href="#" >
-				<div class="project-container Visual" style="background-color: #2b2b2b; background-image: url(imgs/logo-color-trans-1.svg); background-size:70%; background-position: 50% 77%; background-repeat: no-repeat;">
-					<div class="pro-intro-container">
-						<div class="pro-title"> Logo Design </div> 
-						<div class="pro-txt">Meituan-Dianping logo design</div>
-					</div>
-				</div>
-			</a>
+<div class="banner">
+    <div class="main_visual">
 
-			<a href="#">
-				<div class="project-container UX" style="background-color:#5c6cc2; background-image: url(imgs/pro-qrio.png); background-size: cover; background-position: center;">
-					<div class="pro-intro-container">
-						<div class="pro-title">QRIO </div> 
-						<div class="pro-txt"> eBay buyer data analysis</div>
-					</div>
-				</div>
-			</a>	
+            <div class="flicking_con">
+                <div class="flicking_inner">
+                        <a href="javascript:;"></a>
+                        <a href="javascript:;"></a>
+                        <a href="javascript:;"></a>
+                </div>
+            </div>
+            <div class="main_image">
+                <ul>
+                        <li>
+                            <div style="width: 860px; margin: 0 auto; position: relative;">
+                                
+                            </div>
+                            <span style="background: url('/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/files/20170906071350661_%E5%89%AF%E6%9C%AC.jpg') center top no-repeat"></span></li>
+                        <li>
+                            <div style="width: 860px; margin: 0 auto; position: relative;">
+                                
+                            </div>
+                            <span style="background: url('/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/files/DSC_0679_%E5%89%AF%E6%9C%AC.jpg') center top no-repeat"></span></li>
+                        <li>
+                            <div style="width: 860px; margin: 0 auto; position: relative;">
+                                
+                            </div>
+                            <span style="background: url('/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/images/jdt/hc4.jpg') center top no-repeat"></span></li>
+                </ul>
+                <a href="javascript:;" id="btn_prev"></a><a href="javascript:;" id="btn_next"></a>
+            </div>
+    </div>
+</div>
+<!--banner end-->
 
-			<a href="#">
-				<div class="project-container UX" style="background-color:#254A78;background-image: url(imgs/pro-dianping-app.png); background-size: cover; background-position: center;">
-					<div class="pro-intro-container">
-						<div class="pro-title">Customize advertisement</div> 
-						<div class="pro-txt">Meituan-Dianping ads platform</div>
-					</div>
-				</div>
-			</a>
+<div class="shiyanbg">
+    <div class="about fl">
 
-			<a href="#">
-				<div class="project-container UX" style="background-color:#4e9fe3; background-image: url(imgs/pro-ai.png); background-size: cover; background-position: center; ">
-					<div class="pro-intro-container">
-						<div class="pro-title">AI Shopping Assistant</div> 
-						<div class="pro-txt">Shopping with chatbot | Android app</div>
-					</div>
-				</div>
-			</a>
+            <div class="ab-top">
+                <div class="ab-tit fl">
+                    <img src="/Assets/images/ic1.png" />实验室简介
+                </div>
+                <div class="ab-more fr">
+                    <a href="/Data/List/sysjj">
+                        <img src="/Assets/images/more.png" />more</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!--db-top end-->
+            <div class="ab-con">
+                    <div class="ab-img fl">
+                        <ul>
+                            <li><a target="_self" href="/Data/View/114">
+                                <img src="/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/images/sysjj/4.jpg" width="213" height="115" /></a></li>
+                            <li><a target="_self" href="/Data/View/114">
+                                <img src="/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/images/sysjj/5.jpg" width="213" height="115" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="ab-text fr">
+                        <p style="text-align: justify;"><span style="font-size: 14px;">&nbsp;复旦大学代谢与疾病研究团队由赵世民教授、李瑶教授、赵健元副研究员、徐薇副研究员、黄燕副研究员、王陈继副研究员和袁易远青年副研究员领导，开展代谢物的感知与信号传导，以及代谢物信号失调的致病机理。实验室目前包括有导师、管理人员、博士后、博士生、技术员等40余人。团队在</span>Science, Molecular Cell, Cancer Cell, Cell Metabolism, Circulation, Nature Medicine, Nature Communications, Journal of Clinic Investigation, Nature Neurosceinces<span style="font-size: 14px;">&nbsp;等国际顶级期刊发表系列研究论文。团队获得包括科技部国家重大基础研究（973）项目、</span><span style="font-size: 14px;">国家自然科学基金</span><span style="font-size: 14px;">重点</span><span style="font-size: 14px;">、优青、面上</span><span style="font-size: 14px;">、青年项目、</span>国际<span style="font: 14px/26px &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size-adjust: none; font-stretch: normal;">科技合作项目、</span><span style="font-size: 14px;">上海市基础研究项目的支持，总经费超过4000万元，获得包括教育部自然科学一等奖等在内的多项奖励。</span></p>
+
+                    </div>
+                    <div class="clearfix"></div>
+            </div>
+    </div>
+    <div class="new fr">
+
+            <div class="ab-top">
+                <div class="ab-tit fl">
+                    <img src="/Assets/images/ic2.png" />实验室新闻
+                </div>
+                <div class="ab-more fr">
+                    <a href="/Data/List/sysxw">
+                        <img src="/Assets/images/more.png" />more</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!--db-top end-->
+            <ul>
+                    <li><a target="_self" href="/Data/View/240">实验室Cell Reports 报导同型半胱氨酸致肠癌机制</a><span>2018-10-12</span></li>
+                    <li><a target="_self" href="/Data/View/226">赵世民教授获基金委创新群体项目资助</a><span>2018-09-04</span></li>
+                    <li><a target="_self" href="/Data/View/227">徐薇副研究员获基金委面上项目资助</a><span>2018-09-04</span></li>
+                    <li><a target="_self" href="/Data/View/225">张霆/赵世民合作组首次揭示组蛋白同型半胱氨酸修...</a><span>2018-09-04</span></li>
+                    <li><a target="_self" href="/Data/View/224">Cell Metabolism以Cover Story 发表本团队氨基酸...</a><span>2018-01-10</span></li>
+            </ul>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<!--shiyanbg end-->
+
+<div class="share">
+    <div class="cheng fl">
+
+            <div class="ab-top">
+                <div class="ab-tit fl">
+                    <img src="/Assets/images/ic3.png" />成果展示
+                </div>
+                <div class="ab-more fr">
+                    <a href="/Data/List/cgzss">
+                        <img src="/Assets/images/more.png" />more</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!--db-top end-->
+            <ul>
+                    <li><a target="_self" href="/Data/View/222">
+                        <img src="/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/files/AA%20%E4%BF%AE%E9%A5%B0%E7%A4%BA%E6%84%8F%E5%9B%BE.jpg" width="262" height="152" /></a>
+                        <p><a target="_self" href="/Data/View/222">赖氨酸氨基酸修饰感知、传递氨基...</a></p>
+                    </li>
+                    <li><a target="_self" href="/Data/View/220">
+                        <img src="/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/files/20170906071350661.jpg" width="262" height="152" /></a>
+                        <p><a target="_self" href="/Data/View/220">富营养促肿瘤机制</a></p>
+                    </li>
+                    <li><a target="_self" href="/Data/View/129">
+                        <img src="/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/images/yjcg/%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA3.jpg" width="262" height="152" /></a>
+                        <p><a target="_self" href="/Data/View/129">代谢物信号与细胞信号Crosstalk</a></p>
+                    </li>
+            </ul>
+    </div>
+    <div class="link fr">
+
+            <div class="ab-top">
+                <div class="ab-tit fl">
+                    <img src="/Assets/images/ic4.png" />友情链接
+                </div>
+                <div class="ab-more fr">
+                  
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!--db-top end-->
+            <ul>
+                    <li><span>
+                        <a target="_blank" href="http://www.urp.fudan.edu.cn/">
+                            校园信息门户</a></span>
+                    </li>
+                    <li><span>
+                        <a target="_blank" href="http://www.cwgl.fudan.edu.cn/WFManager/login.jsp">
+                            财务处</a></span>
+                    </li>
+                    <li><span>
+                        <a target="_blank" href="http://10.157.61.31/lims/!people/profile/index.417">
+                            仪器管理平台</a></span>
+                    </li>
+                    <li><span>
+                        <a target="_self" href=" http://www.library.fudan.edu.cn/">
+                            图书馆</a></span>
+                    </li>
+                    <li><span>
+                        <a target="_blank" href="http://www.fudan.edu.cn/">
+                            复旦大学</a></span>
+                    </li>
+            </ul>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<!--share End-->
 
 
-				
-		</div>		
-	</div>
-	<a href="#"><div class="to-top"></div></a>
-	<div class="self-container">
-		<div class="self-intro-bo">
-			<div class='photo-container'><img class='myphoto' src="imgs/baoling.jpg"></div>
-			<div class="intro-text">About Baoling: Baoling is currently an interaction designer at Meituan-Dianping, former ux designer at eBay Shanghai. She's proficient in UX design，also good at UI and front-end coding.<br/>
-			<div class="link-my">
-				<a target="_blank" href="https://www.linkedin.com/in/baoling-yang-47548295/">LinkedIn</a>
-				<a target="_blank" href="http://www.jianshu.com/u/d27e26cd024d">简书</a>
-				<a target="_blank" href="http://oriental13.lofter.com/">Lofter</a>
-				<a target="_blank" href="https://github.com/horisony">Github</a>
-			<!-- 	<a target="_blank" href="file/baoling-cv-zh.pdf">Resume-ZH</a>
-				<a target="_blank" href="file/baoling-cv-en.pdf">Resume-EN</a> -->
-			</div>
-			</div>
-		</div>
-	</div>
-	<div class="footer">
-		<!-- This website is designed and developed by Baoling Yang, all copyright reserved.<br/> -->
-		Copyright @杨宝玲 2017
-	</div>
 
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <div class="foot">
+            <p>Copyright&copy;2016&nbsp;复旦大学赵世民实验室版权所有 沪ICP备：042465 &nbsp;<a href="/Data/List/lxwm">联系我们</a></p>
 
-	<script type="text/javascript">
-		$(document).ready(function() { 
-			$("#tagAll").click(function(){
-				$(".project-container").show();
-			});
-			$("#tagUX").click(function() {
-				$(".project-container").not(".UX").hide();
-				$(".UX").show();
-			});
-			$("#tagVisual").click(function() {
-				$(".project-container").not(".Visual").hide();
-				$(".Visual").show();
-			});
-			$("#tagVideo").click(function() {
-				$(".project-container").not(".Video").hide();
-				$(".Video").show();
-			});
-			$("#tag3d").click(function() {
-				$(".project-container").not(".3D").hide();
-				$(".frontend").show();
-			});
-			
-			$(".to-top").hide();
-			currTop = 0;
-			$(window).scroll(function(){
-				var windowTop = $(window).scrollTop()||0;
-				if (windowTop > 200){
-					$(".to-top").fadeIn(300);
-				}
-				else{
-					$(".to-top").fadeOut(300);
-				}
-				if(windowTop > currTop){
-					$(".navbar").addClass("navbar-hide");
-				}else{
-					$(".navbar").removeClass("navbar-hide")
-					if(windowTop > 20){
-						$(".navbar").addClass("navbar-custom");
-					}else{
-						$(".navbar").removeClass("navbar-custom");
-					}
-				}
-				currTop = windowTop;
-			});
-			$(".tag").click(function(){
-				$(this).siblings().removeClass("active");
-				$(this).addClass("active");
-			});
-		}); 
-	</script>
+            技术支持 : <a href="http://www.51eweb.cn/Home/" target="_blank" style="color: #999">维程互联</a>
+        </div>
+    </div>
 
+    <div id="AntiForgeryToken" style="display: none;">
+        <input name="__RequestVerificationToken" type="hidden" value="AQs3M84yQ15NddBq2FruK8piGptoSfxxUlcxuHiiAJVUkgA08I99b_WR8zeKhakRVjRzd2e8vb9pH38WceemS9SIlmzgwtZi0YJw40EaJHye3_f1N-Cn93Fa9eiPWf3Bqhpzh6KqqsVGwaSD3_yF9pyMkZBsECbeJ2jp1RL0wI41" />
+    </div>
+    <!-- jQuery -->
+    <script src="/Assets/js/scrollToTop.js" type="text/javascript"></script>
+
+
+
+    <script type="text/javascript">
+        /*img error*/ onerror = "ImgLoadError(this)"
+        function ImgLoadError(img) { $(img).attr('src', '/Assets/images/nopic.jpg'); }
+
+        function search(a) {
+            var b = "/?s=",
+            d = document.getElementById(a),
+            e = d.value;
+            if (e = e.replace(/^\s*(.*?)\s*$/, "$1"), e.length > 100 && (e = e.substring(0, 100)), "" == e) { return window.location.href = window.location.href }
+            if (/\d+/.test(e)) { e = /\d+/.exec(e); }
+            e = encodeURIComponent(e);
+            window.location.href = b + e;
+        }
+
+        $(function () {
+            /*srarch*/
+            $('#btnSearch').on('click', function () { search('skey'); });
+            $('#skey').on('keypress', function (event) {
+                if (event.keyCode == 13) {
+                    search('skey');
+                    return false;
+                }
+            }).on('click', function () { if ($(this).val() == '搜索') { $(this).val('').css({ 'color': '#333' }); } })
+              .on('blur', function () { if ($(this).val().length == 0) { $(this).val('搜索').css({ 'color': '#999' }); } }).val('搜索').css({ 'color': '#999' });
+
+            //显示查询的关键字
+            if ('' != "") {
+                $("#skey").val('');
+            }
+
+            //selected menu
+            var _url = window.location.href.toLowerCase();
+            //导航选中
+            $(".menu a").each(function (k, v) {
+                if ('X.Project.Core.Models.Model.Category' != null) {
+                    var _vhref = $(v).attr('href').toLocaleLowerCase();
+                    if ($(v).data('id') == '00000000-0000-0000-0000-000000000000' || (_url.indexOf(_vhref) > -1 && _vhref.length > 5)) {
+                        $(v).addClass("active");
+                        return;
+                    }
+                }
+            });
+
+            //左侧选中
+            $('.slide-nav-ul li a').each(function (k, v) {
+                if ('X.Project.Core.Models.Model.Category' != null && 'X.Project.Core.Models.Model.Category' != null) {
+                    if ($(v).data('id') == '00000000-0000-0000-0000-000000000000') {
+                        $(v).addClass("active");
+                        $(v).parents("ul").prev().addClass("active");
+                        $(v).parents("ul").show();
+                        $(v).next().show();
+                        return;
+                    }
+                }
+            });
+
+        });
+
+        //go top
+        scrolltotop.offset(30, 30);
+        scrolltotop.init();
+
+    </script>
+    
+    <script src="/Assets/js/touchSliderJS/jquery.event.drag-1.5.min.js"></script>
+    <script src="/Assets/js/touchSliderJS/jquery.touchSlider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".main_visual").hover(function () {
+                //$("#btn_prev,#btn_next").fadeIn()
+            }, function () {
+                //$("#btn_prev,#btn_next").fadeOut()
+            })
+            $dragBln = false;
+            $(".main_image").touchSlider({
+                flexible: true,
+                speed: 200,
+                btn_prev: $("#btn_prev"),
+                btn_next: $("#btn_next"),
+                paging: $(".flicking_con a"),
+                counter: function (e) {
+                    $(".flicking_con a").removeClass("on").eq(e.current - 1).addClass("on");
+                }
+            });
+            $(".main_image").bind("mousedown", function () {
+                $dragBln = false;
+            })
+            $(".main_image").bind("dragstart", function () {
+                $dragBln = true;
+            })
+            $(".main_image a").click(function () {
+                if ($dragBln) {
+                    return false;
+                }
+            })
+            timer = setInterval(function () { $("#btn_next").click(); }, 5000);
+            $(".main_visual").hover(function () {
+                clearInterval(timer);
+            }, function () {
+                timer = setInterval(function () { $("#btn_next").click(); }, 5000);
+            })
+            $(".main_image").bind("touchstart", function () {
+                clearInterval(timer);
+            }).bind("touchend", function () {
+                timer = setInterval(function () { $("#btn_next").click(); }, 5000);
+            })
+        });
+    </script>
+
+    <div style="text-indent: -999px; height: 0px; width: 0px; display: none; overflow: hidden;">
+        
+    </div>
 </body>
 </html>
+
